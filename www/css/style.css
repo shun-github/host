@@ -1,0 +1,32 @@
+header {
+    position:fixed; 
+    top:2%;
+    width:100%; 
+}
+
+body {
+    position:absolute;
+    top:50%;
+    left: 50%; 
+    transform: translate(-50%,-55%);
+    width:100%; 
+    margin: 0;
+    background-color: #1285ffa8;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 0 #1285ffa8;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Helvetica';
+    letter-spacing: 5;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+footer {
+    position:fixed; 
+    bottom:2%;
+    width:100%; 
+}
