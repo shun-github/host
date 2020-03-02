@@ -1,4 +1,4 @@
- $(function(){
+$ (function(){
       $('.popup-test').magnificPopup({
       type: 'image'
   });
