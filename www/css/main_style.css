@@ -14,17 +14,10 @@ body {
     background-color: #1285ffa8;
     font-family: 'Helvetica';
     text-align: center;
+    transition: all 1s;
 }
 
-h1 {
-    text-shadow: 0 #1285ffa8;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Helvetica';
-    letter-spacing: 5;
-    margin: 150px 0 100px 0;
-    color: white;
-}
+
 
 footer {
     position:fixed; 
@@ -32,21 +25,39 @@ footer {
     width:100%; 
 }
 
-.head--bar {
-  background-color: #fff;
-  display: block;
-  margin: 0px 0px 0px 0px; 
-  padding: 30px;
-  width: 100%;
+.NewOrder{
+  float: left;
+  height:30%; 
+  width:50%; 
 }
 
-.foot--bar {
-  background-color: #fff;
-  display: block;
-  margin: 0px 0px 0px 0px; 
-  padding: 50px;
-  width: 100%;
+.Update{
+  float: right;
+  height:30%; 
+  width:50%; 
 }
+
+.People{
+  height:30%; 
+  width:100%; 
+  clear:both;
+}
+
+.Object{
+  height:30%; 
+  width:100%; 
+  clear:both;
+}
+
+.bodyfadeout {
+    opacity: 0;
+}
+
+.anime3 {
+    transition: all 1s ease-in;
+    margin-left: -200vw;
+}
+
 
 /* Magnific Popup CSS */
 
