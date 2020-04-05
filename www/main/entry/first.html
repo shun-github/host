@@ -4,35 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="../components/loader.js"> </script>
+    <script src="../../components/loader.js"> </script>
     <link rel="stylesheet" href="../../css/entry_style.css">
 </head>
 <body>
 
-あああ
+<div class='NewOrder'><button type="button" style="width:100%; height:100%; background-color:#1285ffa8"; id='slideL';>
+<font size="4" color="#FFF">あああ</font></button></div>
 
-<script>
-  $('#slideL').on('click',function(){
-  if($('#slideL').hasClass('off')){
-    $('#slideL').removeClass('off');
-    $(this).animate({'marginLeft':'400px'},300).addClass('on');
-  }else{
-    $('#slideL').addClass('off');
-    $(this).animate({'marginLeft':'0px'},300);
-  }
-});
+<div id='slideX' class='off'>
+    <div class='slide-inner'>
+        いいいい
+    </div>
+</div>
 
-$(document).ready(function(){
-  fit();
-  $(window).resize(function(){
-    fit();
-  })
-  function fit(){
-    var h = $(window).height();
-    $('.slide-inner').css("height",h);
-  }
-});
-</script>
+<script type="text/javascript" src="../jquery-3.4.1.js"></script>
+<script type="text/javascript" src="entry.js"> </script>
 
 </body>
 </html>
