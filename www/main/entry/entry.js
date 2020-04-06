@@ -19,3 +19,7 @@ $(document).ready(function(){
     $('.slide-inner').css("height",h);
   }
 });
+
+$('#toriaezu').on('click',function(){
+alert($("input[name='fruits']:checked").val());
+});
