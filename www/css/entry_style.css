@@ -6,15 +6,14 @@ header {
 
 body {
     position:fixed;
-    top:2%; 
-    bottom:2%;
-    width:1000%; 
+    width:1000%;
+    height:100%;
     margin: 0;
     padding: 0px;
-    background-color: #1285ffa8;
+    background-color: #e6edf5a8;
     font-family: 'Helvetica';
     text-align: center;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 
@@ -34,14 +33,26 @@ body {
   overflow: hidden;
 }
 
-.slide-inner {
+.page1 {
   height:100%;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: rgba(231, 25, 25, 0);
 }
 
-footer {
-    position:fixed; 
-    bottom:2%;
-    width:100%; 
+input#toriaezu{
+    display: block; /* ブロックレベル要素化する */
+    text-align: center; /* テキストのセンタリングを指定する */
+    margin: 5%; /* ボックス外側の余白を指定する */
+    width: 60%; /* ボックスの横幅を指定する */
+    height: 5%; /* ボックスの高さを指定する */
+    padding-left: 5px; /* ボックス内左側の余白を指定する */
+    padding-right: 5px; /* ボックス内御右側の余白を指定する */
+    color: #b20000; /* フォントの色を指定 */
+    font-size: 15px;
+    line-height: 45px; /* 行の高さを指定する */
+    cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+    border: 2px solid #006DD9;/* ボックスの境界線を実線で指定する */
+    border-radius: 2px; /* 角丸を指定する */ 
+    background-color:#43ec3da8; 
+    -webkit-appearance: none;
 }

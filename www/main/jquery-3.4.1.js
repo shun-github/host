@@ -10597,8 +10597,3 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-$(function(){
-  $('.popup-image').magnificPopup({
-    type: 'image'
-  });
-});

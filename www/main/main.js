@@ -12,7 +12,7 @@ function linkUrl() {
 var bt3 = document.getElementById('button3');
 bt3.addEventListener('click', function(){
     body.classList.add('anime3');
-    setTimeout(linkUrl, 100);
+    setTimeout(linkUrl, 400);
 });
 
 
