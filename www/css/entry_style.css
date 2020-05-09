@@ -1,26 +1,42 @@
 header {
     position:fixed; 
-    top:2%;
-    width:100%; 
+    top:0%;
+    height:7%;
+    width:1000%;
+    background-color: rgba(209, 198, 198, 0.288); 
+    text-align: left;
+    transition: all 1s;
 }
+
+.option{
+  float: left;
+  height:100%; 
+  width:1.3%;  
+}
+
+.option2{
+  height:100%;
+  width:1.3%;
+  margin-left:10%;
+}
+
 
 body {
     position:fixed;
     width:1000%;
-    height:100%;
+    height:93%;
+    top:7%;
     margin: 0;
     padding: 0px;
-    background-color: #e6edf5a8;
+    background-color:#1285ffa8;
     font-family: 'Helvetica';
     text-align: center;
     transition: all 0.5s;
 }
 
-
-
 .NewOrder{
   float: left;
-  text-align: left;
+  text-align: center;
   height:100%; 
   width:10%; 
 }
@@ -36,7 +52,6 @@ body {
 .page1 {
   height:100%;
   width: 100%;
-  background: rgba(231, 25, 25, 0);
 }
 
 input#toriaezu{
