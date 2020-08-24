@@ -1,0 +1,59 @@
+header {
+    position:fixed; 
+    top:0%;
+    bottom: 7%;
+    height:7%;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.911); 
+    text-align: left;
+    transition: all 1s;
+    overflow-y: hidden;
+    z-index: 2;
+}
+
+.option{
+  float: left;
+  text-align: left;
+  height:100%; 
+  width:13%;  
+}
+
+
+body {
+    position:absolute; 
+    top:7%;
+    height: 93%;
+    width:100%;
+    margin: 0;
+    padding: 0px;
+    background-color: #1285ffa8;
+    font-family: 'Helvetica';
+    text-align: left;
+    transition: all 0.5s;
+    overflow-y: scroll;
+
+
+    z-index: 3;
+}
+
+.Big-Cate1{
+  float: left;
+  width:100%;
+  font-size: 200%;
+  border: 1px solid white;
+  box-sizing:border-box;
+  background: rgba(219, 207, 207, 0.247);
+  -webkit-appearance: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Sub-Cate1{
+  float: left;
+  width:100%;
+  font-size: 150%;
+  border: 1px solid white;
+  box-sizing:border-box;
+  background: rgba(253, 251, 251, 0.411);
+  -webkit-appearance: none;
+  -webkit-overflow-scrolling: touch;
+}

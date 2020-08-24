@@ -1,5 +1,6 @@
 $('#slideL').on('click',function(){
-    $('body').animate({'marginLeft':'-100%'},100);});
+    $('body').animate({'marginLeft':'-100%'},100);
+    $('header').animate({'marginLeft':'0.01%'},100);}); //0だと動かない
 
 $('#toriaezu').on('click', function validateForm() {
   var radios = document.getElementsByName("fruits");
@@ -14,7 +15,7 @@ $('#toriaezu').on('click', function validateForm() {
   });
 
 $('form').submit(function( event ) {
-    event.preventDefault();{$.post( 'http://ec2-13-114-80-100.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serialize())
+    event.preventDefault();{$.post( 'http://ec2-13-114-80-100.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serializeArray())
  
 //通信が成功した場合
 .done( function(data) {alert('登録を完了しました');localStorage.setItem('UserID', data); location.href = "../main.html";} )
@@ -33,6 +34,6 @@ $('#backbutton').on('click',function(){
 //戻る処理2
 
 $('#backbutton2').on('click',function(){
-    $('body').animate({'marginLeft':'0%'},100);});
+    $('body').animate({'marginLeft':'0%'},100);
+    $('header').animate({'marginLeft':'0%'},100);});
 
-localStorage.clear();

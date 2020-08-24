@@ -10,13 +10,22 @@
   <style>
     input[type=radio] {
     display: none; /* ラジオボタンを非表示にする */
+    -webkit-appearance: none;
     }
     input[type="radio"]:checked + label {
     background: #31A9EE;/* マウス選択時の背景色を指定する */
     color: #ffffff; /* マウス選択時のフォント色を指定する */
+    -webkit-appearance: none;
+    }
+    button[type=button] {
+    background: #31A9EE;/* マウス選択時の背景色を指定する */
+    color: #ffffff; /* マウス選択時のフォント色を指定する */
+    -webkit-appearance: none;
+    border-radius: 0;
     }
     .label:hover {
     background-color: #E2EDF9; /* マウスオーバー時の背景色を指定する */
+    -webkit-appearance: none;
     }
     .label {
     display: block; /* ブロックレベル要素化する */
@@ -30,12 +39,15 @@
     line-height: 45px; /* 行の高さを指定する */
     cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
     border: 2px solid #006DD9;/* ボックスの境界線を実線で指定する */
-    border-radius: 5px; /* 角丸を指定する */ }
+    border-radius: 5px; /* 角丸を指定する */ 
+    -webkit-appearance: none;
+    }
 
     .toriaezu{
      width:60%;
      height:10%;
-     background-color:#1285ffa8"; }
+     background-color:#1285ffa8";
+     -webkit-appearance: none;}
 </style>
 
 </head>
@@ -47,7 +59,7 @@
 
 <body>
 <div class='NewOrder'><button type="button" id='slideL';>
-<font size="4" color="black">あああ</font></button></div>
+<font size="4" color="black">次はこちら</font></button></div>
 
 
 <div class='slideX'>
