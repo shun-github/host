@@ -39,6 +39,13 @@
   <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
   <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
   <platform name="ios">
+
+  <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+  </feature>
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarBackgroundColor" value="#00FF00" />
+
     <icon src="/res/ios/icon/icon.png" width="57" height="57"/>
     <icon src="/res/ios/icon/icon@2x.png" width="114" height="114"/>
     <icon src="/res/ios/icon/icon-72.png" width="72" height="72"/>
@@ -97,5 +104,9 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="addbe829-90d9-2194-1d18-8858128520dd"/>
+
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarBackgroundColor" value="#00FF00" />
+
 </widget>
 
