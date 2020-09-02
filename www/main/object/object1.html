@@ -14,9 +14,20 @@
 </header>
 
 <body>
-<div id="sample-fold1" class="Big-Cate1">▷ サンプル１</div>
+<div class="Scroll">
+<div id="sample-fold1" class="Big-Cate1">
+<span id="ARW" class="arrow1">▶︎</span>
+<span class="CateName">サンプル１</span></div>
 <a id="a01"class="Sub-Cate1">
-  サンプルA-1
+  <script>
+  var object1A = localStorage.getItem('Object1-1');
+  document.getElementById('a01').innerHTML = object1A;
+  </script> 
+<span>
+<button type="button" name="a01S" class="Sub-Cate-Google" href="#" onclick="openMonaca();">
+<font size="5" color="#333399">調べる</font>
+</button>
+</span>
 </a>
 <div id="a02"class="Sub-Cate1">
   サンプルA-2
@@ -76,6 +87,7 @@
 </div>
 <div id="b10"class="Sub-Cate1">
   サンプルB-10
+</div>
 </div>
 
 <script type="text/javascript" src="../jquery-3.4.1.js"></script>
