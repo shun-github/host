@@ -15,13 +15,13 @@ $('#toriaezu').on('click', function validateForm() {
   });
 
 $('form').submit(function( event ) {
-    event.preventDefault();{$.post( 'http://ec2-13-114-80-100.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serializeArray())
+    event.preventDefault();{$.post( 'http://ec2-54-199-182-226.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serializeArray())
  
 //通信が成功した場合
 .done( function(data) {alert('登録を完了しました');localStorage.setItem('UserID', data); location.href = "../main.html";} )
  
 //通信エラーの場合
-.fail( function(data) {alert('通信エラーです');} )
+.fail( function(data) {alert('通信エラーですよ');} )
 }});
 
 

@@ -21,7 +21,6 @@
   <preference name="BackupWebStorage" value="cloud"/>
   <preference name="FadeSplashScreenDuration" value="250"/>
   <preference name="KeyboardDisplayRequiresUserAction" value="true"/>
-  <preference name="MediaPlaybackRequiresUserAction" value="false"/>
   <preference name="SuppressesIncrementalRendering" value="false"/>
   <preference name="TopActivityIndicator" value="gray"/>
   <preference name="GapBetweenPages" value="0"/>
@@ -43,7 +42,6 @@
     <icon src="/res/ios/icon/icon-60@3x.png" width="180" height="180"/>
     <icon src="/res/ios/icon/icon-76.png" width="76" height="76"/>
     <icon src="/res/ios/icon/icon-76@2x.png" width="152" height="152"/>
-    <icon src="/res/ios/icon/icon-40.png" width="40" height="40"/>
     <icon src="/res/ios/icon/icon-40@2x.png" width="80" height="80"/>
     <icon src="/res/ios/icon/icon-50.png" width="50" height="50"/>
     <icon src="/res/ios/icon/icon-50@2x.png" width="100" height="100"/>
@@ -63,6 +61,9 @@
     <splash src="/res/ios/screen/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
     <splash src="/res/ios/screen/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
     <preference name="orientation" value="default"/>
+    <preference name="scheme" value="monaca-app"/>
+    <preference name="hostname" value="localhost"/>
+    <icon src="/res/ios/icon/icon-40.png" width="40" height="40"/>
     <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
       <array>
         <string>en</string>
@@ -93,7 +94,8 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="addbe829-90d9-2194-1d18-8858128520dd"/>
-  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="MediaTypesRequiringUserActionForPlayback" value="false"/>
+  <preference name="target-device" value="universal"/>
   <preference name="AutoHideSplashScreen" value="true"/>
   <preference name="FadeSplashScreen" value="true"/>
   <preference name="ShowSplashScreenSpinner" value="false"/>
