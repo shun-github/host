@@ -15,7 +15,7 @@ $('#toriaezu').on('click', function validateForm() {
   });
 
 $('form').submit(function( event ) {
-    event.preventDefault();{$.post( 'http://ec2-54-199-182-226.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serializeArray())
+    event.preventDefault();{$.post( 'http://ec2-54-250-212-211.ap-northeast-1.compute.amazonaws.com/Ricomen/server.py', $('form').serializeArray())
  
 //通信が成功した場合
 .done( function(data) {alert('登録を完了しました');localStorage.setItem('UserID', data); location.href = "../main.html";} )

@@ -10,17 +10,18 @@
 .send-area {
   padding: 0 5px;
   box-sizing: border-box;
-  line-height: 49px;
+  line-height: 10%;
   position: fixed;
   bottom: 0px;
   width: 100%;
-  border-top: solid 1px #ccc;
+  border-top: solid 1px rgb(233, 18, 18);
 }
+
 
 .send-area ons-input {
 	display: inline-block;
 	position: relative;
-	width: calc(100% - 60px);
+	width: calc(100% - 6%);
 }
 
 .send-area input {
